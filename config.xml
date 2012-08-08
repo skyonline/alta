@@ -7,8 +7,8 @@
 
   <!-- versionCode is optional and Android only -->
 
-  <name>Triple Evo</name>
-  <description>Triple Evo</description>
+  <name>Alta</name>
+  <description>Alta</description>
   <author href="http://www.skyname.net" email="info@skyname.net">Sky Online</author>
   <preference name="orientation" value="portrait" />
   <gap:splash src="splash.png" />
