@@ -11,6 +11,11 @@
   <description>Alta</description>
   <author href="http://www.skyname.net" email="info@skyname.net">Sky Online</author>
   <preference name="orientation" value="portrait" />
+  <preference name="stay-in-webview" value="true" />
+  <preference name="ios-statusbarstyle" value="black-opaque" />
+  <preference name="fullscreen" value="true" />
+  <preference name="webviewbounce" value="false" />
   <gap:splash src="splash.png" />
+  <access origin="http://www.on32.ru" subdomains="true" />
   <icon src="icon.png" />
 </widget>
