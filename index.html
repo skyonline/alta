@@ -1,93 +1,22 @@
-<!DOCTYPE html> 
-<html> 
-	<head> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
 	<meta charset="windows-1251" /> 
-	<title>ALTA</title> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> 	 
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<link rel="stylesheet"  href="css/jquery.mobile-1.1.1.min.css" />
-	<link rel="stylesheet" href="css/styles.css" />
-	<link rel="stylesheet" href="css/styles_.css" />
-	<script src="js/jquery-1.7.2.min.js"></script>
-	<script>
-		$(document).on("mobileinit", function(){
-		  $.mobile.defaultPageTransition = "slide";
-		  $.mobile.ajaxEnabled= "true";
-		});
-	</script>
-	<script src="js/jquery.mobile-1.1.1.min.js"></script>
-</head> 
-<body> 
-
-<div data-role="page">
-
-	<div data-role="header" data-position="fixed">
-		<h1>ПРИЛОЖЕНИЕ</h1>
-	</div>
-
-	<div data-role="content">
-		<p>Demo text</p>
-
-		<ul data-role="listview" data-inset="true"> 
-			<li><a href="#catalogPage">Рейтинг компаниий</a></li> 
-			<li><a href="#productsPage">Товары</a></li> 
-			<li><a href="#about">Информация</a></li> 
-		</ul> 
-	</div>
-
-</div>
-
-<div data-role="page" id="about">
-
-	<div data-role="header" data-position="fixed">
-		<h1>О нас</h1>
-		<a href="#" data-rel="back" data-theme="a">Back</a>
-	</div>
-
-	<div data-role="content">
-		<p>О нас текстО нас текстО нас текстО нас текстО нас текстО нас текст</p>
-	</div>
-
-</div>
-
-<div id="catalogPage" data-role="page">
-
-	<div data-role="header" data-position="fixed">
-		<h1>Рейтинг компаний</h1>
-		<a href="#" data-rel="back" data-theme="a">Back</a>
-	</div>
-
-	<div data-role="content">
-         <ul id="catalog" data-role="listview" data-filter="true" data-inset="true"></ul>
-    </div>		
-
-</div>
-
-
-<div id="productsPage" data-role="page">
-
-	<div data-role="header" data-position="fixed">
-		<h1>Товары</h1>
-		<a href="#" data-rel="back" data-theme="a">Back</a>
-	</div>
-
-	<div data-role="content">
-         <ul id="catalog_products" data-role="listview" data-filter="true"></ul>
-    </div>		
-
-</div>
-
- <div id="entryPage" data-role="page">
-
-	<div data-role="header" data-position="fixed">
-		<h1>Подробная информация</h1>
-	</div>
-
-	<div data-role="content">
-    </div>		
-
-</div>
-        <script src="js/catalog.js"></script>
-
-</body> 
-</html> 
+        <script type="text/javascript">
+            window.addEventListener('load', function() {
+                document.body.addEventListener('touchmove', function(e) {
+                    e.preventDefault();
+                }, false);
+            }, false);
+        </script>
+        <title>Alta</title>
+        <style> html, body {height:100%; width:100%; margin:0; padding:0;} </style>
+    </head>
+    <body>
+        <div id="app">
+		<iframe src="http://www.alta.ru/m/" style="width:100%; height:100%; border:0px;"></iframe>
+        </div>
+    </body>
+</html>
