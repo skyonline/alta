@@ -16,6 +16,6 @@
   <preference name="fullscreen" value="true" />
   <preference name="webviewbounce" value="false" />
   <gap:splash src="splash.png" />
-  <access origin="http://www.on32.ru" subdomains="true" />
+  <access origin="http://www.alta.by" subdomains="true" />
   <icon src="icon.png" />
 </widget>
