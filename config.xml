@@ -7,7 +7,7 @@
 
   <!-- versionCode is optional and Android only -->
 
-  <name>Alta</name>
+  <name>ALTA.BY</name>
   <description>Alta</description>
   <author href="http://www.skyname.net" email="info@skyname.net">Sky Online</author>
   <preference name="orientation" value="portrait" />
@@ -17,6 +17,5 @@
   <preference name="webviewbounce" value="false" />
   <gap:splash src="splash.png" />
   <access origin="http://www.alta.by" subdomains="true" />
-  <access origin="http://www.on32.ru" subdomains="true" />
   <icon src="icon.png" />
 </widget>
